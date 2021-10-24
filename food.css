@@ -1,0 +1,47 @@
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #ffd400;
+    text-decoration: underline;
+}
+
+#img4{
+    width: 400px;
+    height: 400px;
+}
+
+.p1 {
+    font-size: 1.2rem; 
+
+  }
+
+
+.image{
+    transition: 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 7px 4px;
+    
+}
+
+.image:hover{
+    filter: brightness(60%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#row1{
+   
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.btn{
+    background-color: rgba(255 201 26) !important;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(73, 70, 58) !important;
+    color: rgb(255, 255, 255);
+}
+
